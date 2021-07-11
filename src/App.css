@@ -1,5 +1,11 @@
+html {
+  background-image: url("https://media.giphy.com/media/xGrjBxxEBvWTBtkAk4/giphy.gif");
+  background-size: cover;
+}
+
 .App {
   text-align: center;
+  background: none;
 }
 
 .App-logo {
@@ -36,3 +42,32 @@
     transform: rotate(360deg);
   }
 }
+
+a, label {
+  border: 2px solid;
+  border-radius: 4px;
+  padding: 1px;
+  margin: 4px;
+  cursor: pointer;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+label:hover {
+  background-color: black;
+  color: white;
+  border-color: white;
+}
+
+.fadeInImage {
+  animation: fadeIn 2s;
+}
+
+@keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+  
